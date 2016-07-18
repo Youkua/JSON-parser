@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        JSONObject jobj = ParseJSONobj("http://chickenq.hexa.pro/jobj.php");
+        JSONObject jobj = ParseJSONobj("http://your.private.url/jobj.php");
         try{
             txt.setText(jobj.getInt("num")+"");
         } catch(Exception e){
